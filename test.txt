@@ -2,3 +2,4 @@
 git branch v1.2 创建分支
 git branch -a
 git checkout v1.0
+git push origin v1.0
