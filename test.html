@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <style>
+        body,html{
+            padding:0px;
+            margin:0px
+        }
+        </style>
+    </head>
+    <body>
+        <input id="input"/><br/>
+        <input type="button" id="ok" value="ok" onclick="f(3,2)"/>
+        <input type="radio"/>性别
+    </body>
+    <script>
+        function f(a,b){
+            document.getElementById("input").value="hello"+a*b;
+            return a*b;
+        }
+    </script>
+</html>
