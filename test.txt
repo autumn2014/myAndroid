@@ -3,3 +3,4 @@ git branch v1.2 创建分支
 git branch -a
 git checkout v1.0
 git push origin v1.0
+我们先对我们的本地仓库做一点点修改，接着git add和git commit本地准备后，然后：
